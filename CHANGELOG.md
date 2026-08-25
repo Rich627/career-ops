@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.30.0](https://github.com/Rich627/career-ops/compare/career-ops-v1.29.0...career-ops-v1.30.0) (2026-08-25)
+
+
+### Features
+
+* add /calibrate — check evaluation scores against real outcomes ([#3315](https://github.com/Rich627/career-ops/issues/3315)) ([4934985](https://github.com/Rich627/career-ops/commit/493498572b54c8fed6081281a1190690c01e3f55))
+* **artifacts:** ATS form copy-paste plain-text exporter ([#2887](https://github.com/Rich627/career-ops/issues/2887)) ([9f79f09](https://github.com/Rich627/career-ops/commit/9f79f0921ee0ad2a62b55ab63456057a43831168))
+* **community:** PR adoption ladder for quiet PRs ([c86841b](https://github.com/Rich627/career-ops/commit/c86841b87eb4e7f6cbdfcf3bc76672d9b7af8fb8))
+* **plugins:** register career-ops-plugin-xquik (X hiring posts via Xquik, BYO-key) ([88b325c](https://github.com/Rich627/career-ops/commit/88b325c13026c14ab926398f5c7d451ce62a6cd5))
+* **title-filter:** a stem: prefix, for the half a plain keyword gives away ([77c7007](https://github.com/Rich627/career-ops/commit/77c70077c6273ab65ffbcd6dafb43bd633c19632))
+
+
+### Bug Fixes
+
+* **cli:** validate flag values in detect-reposts via the shared safeIntFlag ([50944e3](https://github.com/Rich627/career-ops/commit/50944e35e174410508d3369fed075a2e4ac456ea))
+* **contacto:** stop searching for contacts the mode never uses ([17f5557](https://github.com/Rich627/career-ops/commit/17f55577fe315392ca557419bace93d2b2c53ff6))
+* **dates:** weekly-digest and rejection-latency read the local day, not the UTC day ([c8200cb](https://github.com/Rich627/career-ops/commit/c8200cbbd0757fe9ed7594192daac049f443add3))
+* **doctor:** surface tracked .bak backup files as a warning ([228e7b8](https://github.com/Rich627/career-ops/commit/228e7b8078804d82c92f2497ea2ec340b7fc0cae))
+* **followup:** stop reporting the candidate's own address as a contact to chase ([c0fe77e](https://github.com/Rich627/career-ops/commit/c0fe77e2e497552ff1b994a79f9d7d6f9ab182d0))
+* **gfi-claims:** reply when /assign is used outside the claim pool ([f0b24df](https://github.com/Rich627/career-ops/commit/f0b24dfa5198d3ecf5c7394ff9777b20872b8950))
+* handle quoted angle brackets while stripping HTML tags ([702a2ae](https://github.com/Rich627/career-ops/commit/702a2ae4c590f28a140b5fa845818a356b57c22f))
+* **pdf:** run the CLI when reached through a symlink ([#3170](https://github.com/Rich627/career-ops/issues/3170)) ([3c2fa60](https://github.com/Rich627/career-ops/commit/3c2fa6083976777bd69ecb24d697d5ebc3551a09))
+* **plugins:** isolate cmdRun results to the requested plugin id ([#2354](https://github.com/Rich627/career-ops/issues/2354)) ([f0044f8](https://github.com/Rich627/career-ops/commit/f0044f8c7890bd7069a64a61639a90130c86c67b))
+* **plugins:** scale export hook timeout with tracker size ([a8cbb2d](https://github.com/Rich627/career-ops/commit/a8cbb2df20ec61227dc5cd50dbeaed2526893b70))
+* **portals.example:** drop retired EchoJobs block ([3254ea3](https://github.com/Rich627/career-ops/commit/3254ea39d585c609dde826051237529c93ee7691))
+* **reconcile-pipeline:** validate CLI flags via the shared helper ([b4384a7](https://github.com/Rich627/career-ops/commit/b4384a797556250a2e73a23e40b3a0a8e13f332a))
+* **salary-gap:** decide which separator is the decimal point before deleting either ([17f44f9](https://github.com/Rich627/career-ops/commit/17f44f977fbdd1e62a7f32241f8dc0f21aba410c))
+* **stats:** stop reporting a neighbouring counter when scan-runs.tsv drifts ([5eb71d5](https://github.com/Rich627/career-ops/commit/5eb71d5db82ad50de20f35e14823c33bef9fcc4f))
+* **story-provenance:** make the context matcher script-aware, not ASCII-only ([2d7521e](https://github.com/Rich627/career-ops/commit/2d7521e9d753a6ccceadec9599d98a6c4e55811b))
+* **verify:** a check that could not run is a failure, not a warning ([5ae4337](https://github.com/Rich627/career-ops/commit/5ae433780e5db2ad43a9365ae560bf3ae7a4f204))
+* **web:** classify a tracker-lock filesystem failure as itself, not as contention ([#3138](https://github.com/Rich627/career-ops/issues/3138)) ([cf880eb](https://github.com/Rich627/career-ops/commit/cf880eb55945019663e1b423499041097cb24ccd))
+* **web:** key company logos with the Unicode-aware normalizer so non-Latin names don't collide ([#3134](https://github.com/Rich627/career-ops/issues/3134)) ([7b9f858](https://github.com/Rich627/career-ops/commit/7b9f8588f57d3313265c49f37d2055bb533a7d08))
+* **web:** salvage truncated JSON at each prefix's own depth, not one global pad ([#3142](https://github.com/Rich627/career-ops/issues/3142)) ([a308bc5](https://github.com/Rich627/career-ops/commit/a308bc5cc96197f3ed84ac75493d75c45a770f02))
+* **web:** stop hiding an employer's whole board after one evaluation ([b56cde5](https://github.com/Rich627/career-ops/commit/b56cde551d84ad5c28d7ea8b99edcc450a2b8b4c))
+* **web:** stop killing evaluate runs at 285s and misreporting the kill ([#3124](https://github.com/Rich627/career-ops/issues/3124)) ([8a245ed](https://github.com/Rich627/career-ops/commit/8a245edd677598aa539e74c7565be44b7676e4ab))
+
 ## [1.29.0](https://github.com/santifer/career-ops/compare/career-ops-v1.28.0...career-ops-v1.29.0) (2026-08-25)
 
 
